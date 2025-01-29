@@ -1,4 +1,17 @@
-let userID: string | number = "abc1";
-userID = 123;
-userID = "abc1";
-console.log(userID);
+interface User {
+  name: string;
+  age: number;
+  isAdmin: boolean;
+  id: string | number;
+}
+
+let user: User;
+
+user = {
+  name: "Max",
+  age: 34,
+  isAdmin: true,
+  id: 1234,
+};
+
+console.log(user)

@@ -1,4 +1,8 @@
-var userID = "abc1";
-userID = 123;
-userID = "abc1";
-console.log(userID);
+var user;
+user = {
+    name: "Max",
+    age: 34,
+    isAdmin: true,
+    id: 1234,
+};
+console.log(user);
