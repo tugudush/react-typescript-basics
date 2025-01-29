@@ -14,4 +14,4 @@ user = {
   id: 1234,
 };
 
-console.log(user)
+console.log(user);
